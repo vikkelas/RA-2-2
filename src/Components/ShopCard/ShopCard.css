@@ -1,0 +1,48 @@
+.shop-card{
+    padding: 20px;
+}
+
+.shop-card__title{
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+
+.shop-card__name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.shop-card__color{
+    font-size: 12px;
+}
+
+
+.shop-card__img{
+    max-width: 300px;
+}
+
+.shop-card__buy{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    bottom: 65px;
+}
+
+.shop-card__price{
+    padding: 8px;
+    color: red;
+}
+
+.shop-card__button{
+    color: red;
+    cursor: pointer;
+    padding: 0 15px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius:20px;
+    border: 1px solid red;
+}
